@@ -82,3 +82,23 @@ main{
     color: #562EFF;
     font-size: 16px;
 }
+/* latest courses style*/
+.course .course-banner img{
+    width: 224px;
+    height: 104px;
+}
+.course-info{
+    display: flex;
+   
+    align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    #FFC014;
+}
