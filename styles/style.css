@@ -5,6 +5,10 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
 }
+hr{
+    border: 1px solid #D1D1D1;
+
+}
 main{
     display: flex;
     justify-content: center;
@@ -15,6 +19,9 @@ main{
     padding: 30px;
 }
 /* top players style */
+.top-players{
+    margin-bottom: 30px;
+}
 
 .section-title{
     color: #562EFF;
@@ -39,4 +46,29 @@ main{
     margin-left: 16px;
     Font size: 18px
 
+}
+/*---------- top blogs styles --------
+--------------------------------*/
+.blog{
+    display: flex;
+}
+.blog img{
+    width: 177px;
+    height: 117px;
+
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-name{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
 }
